@@ -23,7 +23,7 @@ export default function Counter() {
             <h3> {count} </h3>
             <Button title={"+"} action={increment} />
             <Button title={"-"} action={decrement} />
-            <Button title={"*"} action={multiply} />
+            <Button title={"Double"} action={multiply} />
         </div>
     )
 }
